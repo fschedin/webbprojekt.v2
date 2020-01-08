@@ -1,0 +1,67 @@
+* {box-sizing:border-box}
+
+.skor-bild {
+    display: flex;
+    justify-content: center;
+}
+
+.bild {
+    width: 30%;
+} 
+
+.information-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 125px;
+    border: solid 5px black;
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  .infomration-items{
+    font-size: 16px;
+  
+  }
+
+  .vänster-knapp{
+      padding-top: 80px;
+  }
+
+  .höger-knapp{
+      padding-top: 80px;
+  }
+
+.tillbaka-knapp {
+    background-color: #4CAF50;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.tillbaka-knapp a {
+    color: white;
+}
+
+.tillbaka-knapp:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.köp-knapp {
+    background-color: #4CAF50;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s; 
+}
+
+.köp-knapp a {
+    color: white;
+}
+
+.köp-knapp:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
