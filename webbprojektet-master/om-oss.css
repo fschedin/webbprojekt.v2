@@ -1,0 +1,63 @@
+* {box-sizing:border-box}
+
+.grupp-bild {
+    display: flex;
+    justify-content: center;
+}
+
+.bild {
+    width: 50%;
+    border: solid 5px black;
+} 
+
+.information-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    border: solid 5px var(--border-color-);
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .infomration-items{
+    font-size: 16px;
+  
+  }
+
+  p{
+      display: inline-block;
+      text-align: center;
+  }
+
+  .vänster-knapp{
+      padding-top: 80px;
+  }
+
+
+.tillbaka-knapp {
+    background-color: #4CAF50;
+    border: none;
+    margin-left: 5px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.tillbaka-knapp a {
+    color: white;
+}
+
+.tillbaka-knapp:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (max-width: 560px) {
+    
+    }
+
+
+
+
+
