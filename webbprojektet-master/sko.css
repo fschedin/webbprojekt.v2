@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-evenly;
     height: 125px;
-    border: solid 5px black;
+    border: solid 5px var(--border-color-);
     background-color: white;
     margin-right: 15%;
     margin-left: 15%;
@@ -65,6 +65,9 @@
 .köp-knapp:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+@media screen and (max-width: 560px) {
+    
+    }
 
 
 
