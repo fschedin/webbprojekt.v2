@@ -1,4 +1,4 @@
-body {
+bbody {
     background-image: url('bilder/back.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -72,13 +72,13 @@ h2:hover {
         border-bottom: 5px solid black;
     }
     nav.menu li a{
-        color: white;
-        background-color: darkslategrey;
-        opacity: 0.5;
+        color: black;
         text-decoration: none;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 5px;
+    }
+    nav.menu ul li a:hover{
+        background-color: red ;
     }
 }
