@@ -67,9 +67,9 @@ h2:hover {
     nav.menu{
         display: none;
     }
-    .button + nav.menu:active,
-    button:focus + nav.menu{
-        display: contents;
+    button:active > nav.menu,
+    button:focus > nav.menu{
+        display: block;
     }
     nav.menu ul{
         padding: 5px;
