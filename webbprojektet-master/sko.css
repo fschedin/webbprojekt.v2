@@ -69,7 +69,7 @@
         transition-duration: 0.4s; 
         color: white;
       }
-
+      /* Den själva popuppen (visas över) */
       .popup .popuptext {
         visibility: hidden;
         width: 160px;
@@ -84,7 +84,7 @@
         left: 50%;
         margin-left: -80px;
       }
-
+      /* Popup pilen */
       .popup .popuptext::after {
         content: "";
         position: absolute;
@@ -95,13 +95,13 @@
         border-style: solid;
         border-color: #555 transparent transparent transparent;
       }
-
+      /* Toggla den här klassen när du trycker på popupp containern (göm och visa popuppen) */
       .popup .show {
         visibility: visible;
         -webkit-animation: fadeIn 1s;
         animation: fadeIn 1s
       }
-
+      /* Lägger till animationen (fade på popuppen) */
       @-webkit-keyframes fadeIn {
         from {opacity: 0;}
         to {opacity: 1;}
