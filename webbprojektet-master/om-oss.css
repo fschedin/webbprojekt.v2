@@ -21,16 +21,15 @@
   }
   .infomration-items{
     font-size: 16px;
-  
+  }
+
+  h3{
+      text-align: center;
   }
 
   p{
       display: inline-block;
       text-align: center;
-  }
-
-  .vänster-knapp{
-      padding-top: 80px;
   }
 
 
@@ -53,10 +52,9 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-@media screen and (max-width: 760px) {
-    
-    }
 
+    
+ 
 
 
 
