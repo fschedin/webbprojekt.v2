@@ -66,23 +66,35 @@
 
     <div class="information-container">
         <div class="vänster-knapp">
-           <div class="tillbaka-knapp"><a href="webbprojekt.html">TILLBAKA</a> </div> 
+            <div class="tillbaka-knapp"><a href="webbprojekt.html">TILLBAKA</a> </div>
         </div>
         <div class="information-items">
-              <h3>FILA</h3>
-              <p>
-                 Skor från tillverkaren FILA<br>
-                 -Vita<br>
-                 -Gjorde för att springa<br>
-                 -Vattentäta<br>
-                 -Testad utav löpare <br>
-              </p>
+            <h3>FILA</h3>
+            <p>
+                Skor från tillverkaren FILA<br>
+                -Vita<br>
+                -Gjorde för att springa<br>
+                -Vattentäta<br>
+                -Testad utav löpare <br>
+            </p>
         </div>
         <div class="höger-knapp">
-        <div class="köp-knapp"><a href="#">KÖP</a> </div>
+         
+
+            <div class="popup" onclick="myFunction()">KÖP
+                <span class="popuptext" id="myPopup">Du har köpt den här sneakern</span>
+            </div>
         </div>
-     </div>
-    
+    </div>
+
+    <script>
+        // När användaren trycker på diven ska popupen visas
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+
 
     <footer>
         <div class="footer-vänster">
