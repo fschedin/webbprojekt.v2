@@ -6,7 +6,7 @@ footer{
     height: 120px;
     border: solid var(--border-color-) 5px;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: auto;
 }
 
 .footer-vänster {
