@@ -77,11 +77,21 @@
                  -Vattentäta<br>
                  -Testad utav löpare <br>
               </p>
+            </div>
+            <div class="höger-knapp">
+                <div class="popup" onclick="myFunction()">KÖP
+                    <span class="popuptext" id="myPopup">Du har lagt till den här sneakern i kundvagnen</span>
+                </div>
+            </div>
         </div>
-        <div class="höger-knapp">
-            <div class="köp-knapp"><a href="#">KÖP</a> </div>
-        </div>
-     </div>
+
+        <script>
+            // När användaren trycker på diven ska popupen visas
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
     
 
     <footer>
