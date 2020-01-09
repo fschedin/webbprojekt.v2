@@ -9,6 +9,10 @@ footer{
     margin-bottom: auto;
 }
 
+html {
+    height: 100%;
+}
+
 .footer-vänster {
     font-size: 40px;
     display: flex;
