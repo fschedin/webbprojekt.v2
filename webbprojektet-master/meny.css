@@ -74,12 +74,10 @@ h2:hover {
     nav.menu ul{
         padding: 5px;
         list-style: none;
-        border-bottom: 5px solid var(--border-color-);
     }
     nav.menu li a{
         color: white;
         background-color: var(--background-color-);
-        opacity: 0.5;
         text-decoration: none;
         display: flex;
         align-items: center;
