@@ -41,6 +41,7 @@
     border-left: 5px var(--border-color-) solid;
     border-right: 5px var(--border-color-) solid;
     border-bottom: 5px var(--border-color-) solid;
+    font-size: 16px;
     cursor: pointer;
 }
 .checkout:hover {
@@ -51,4 +52,9 @@
 }
 .checkout-text h3 {
     font-family: monospace ;
+}
+@media only screen and (max-width: 350px) {
+    .checkout {
+      font-size: 14px;
+    }
 }
