@@ -17,7 +17,7 @@
      <header class="header">
          <div class="vänster"><img src="bilder/logo.png" alt="bild på vår logo"></div>
          <div class="mitten"> <h1>Dalarnas Sneaker Shop</h1></div>
-         <div class="höger"><a href="/webbprojektet-master/kundkorg.html"><i class="fa fa-shopping-cart"></i></a></div>
+         <div class="höger"><a href="./kundkorg.html"><i class="fa fa-shopping-cart"></i></a></div>
      </header>
 
 
@@ -32,7 +32,8 @@
      <!-- Våran mobil-meny -->
 
      <div class="mobile-meny">
-       <button>&#9776;</button>
+       <label for="menucheck">&#9776;</label>
+       <input type="checkbox" id="menucheck" />
        <nav class="menu">
          <ul>
            <li>
@@ -51,37 +52,7 @@
        </nav>
      </div>
 
-<script>
-     var slideIndex = 1;
-     showSlides(slideIndex);
-     
-     // framåt och bakåt kontrollerna
-     function plusSlides(n) {
-       showSlides(slideIndex += n);
-     }
-     
-     // runda cirklarna under slide
-     function currentSlide(n) {
-       showSlides(slideIndex = n);
-     }
-     
-     // här skapas slide-funktionen
-     function showSlides(n) {
-       var i;
-       var slides = document.getElementsByClassName("mySlides");
-       var dots = document.getElementsByClassName("dot");
-       if (n > slides.length) {slideIndex = 1}
-       if (n < 1) {slideIndex = slides.length}
-       for (i = 0; i < slides.length; i++) {
-           slides[i].style.display = "none";
-       }
-       for (i = 0; i < dots.length; i++) {
-           dots[i].className = dots[i].className.replace(" active", "");
-       }
-       slides[slideIndex-1].style.display = "block";
-       dots[slideIndex-1].className += " active";
-     }
-</script>
+
 
 <!-- Slide container -->
 <div class="slideshow-container">
@@ -201,5 +172,37 @@
       <a class="contact" href="om-oss.html"><i class="fa fa-info-circle"></i></a>
   </div>
 </footer>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // framåt och bakåt kontrollerna
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // runda cirklarna under slide
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  // här skapas slide-funktionen
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   }
 
 body {
-    background-image: url('/webbprojektet-master/bilder/back.jpeg');
+    background-image: url('../bilder/back.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
@@ -45,16 +45,18 @@ h2:hover {
 @media screen and (max-width: 767.98px) {
     
     .desktop-meny{
-    display: none;
+        display: none;
     }
     .mobile-meny{
-        display: contents;
+        display: block;
         font-size: 1rem;
         width: 100%;
+        height: auto;
+        background-color: var(--background-color-);
     }
     .mobile-meny .menu-button{
         color: lightblue;
-        background-color: var(--background-color-);
+        
         font-size: 2rem;
         justify-content: start;
         border: none;
@@ -66,8 +68,15 @@ h2:hover {
     nav.menu{
         display: none;
     }
-    button:active ~ nav.menu,
-    button:focus ~ nav.menu{
+    .mobile-meny label {
+        display: block;
+        text-align: center;
+    }
+    #menucheck {
+        display: none;
+    }
+    #menucheck:checked + nav.menu,
+    #menucheck:checked + nav.menu{
         display: block;
     }
     nav.menu ul{
