@@ -7,6 +7,21 @@
   
   /* Add some padding inside the card container */
 
+  .title {
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--background-color-);
+    height: 100px;
+    margin: 15px;
+    border: 5px solid var(--border-color-);
+    opacity: 0.5;
+  }
+
+  .title h1 {
+    padding-top: 25px;
+  }
 .cards {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
