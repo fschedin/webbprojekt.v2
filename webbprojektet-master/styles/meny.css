@@ -54,7 +54,7 @@ h2:hover {
         height: auto;
         background-color: var(--background-color-);
     }
-    .mobile-meny .menu-button{
+    .mobile-meny {
         color: lightblue;
         
         font-size: 2rem;
