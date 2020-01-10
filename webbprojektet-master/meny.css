@@ -53,9 +53,8 @@ h2:hover {
         width: 100%;
     }
     .mobile-meny button{
-        color: white;
+        color: lightblue;
         background-color: var(--background-color-);
-        opacity: 0.5;
         font-size: 2rem;
         justify-content: start;
         border: none;
@@ -76,12 +75,13 @@ h2:hover {
         list-style: none;
     }
     nav.menu li a{
-        color: white;
+        color: lightblue;
         background-color: var(--background-color-);
         text-decoration: none;
         display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 5px;
+        border-bottom: solid 3px var(--border-color-);
     }
 }
