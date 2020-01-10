@@ -29,6 +29,7 @@
 
   .höger-knapp{
       padding-top: 80px;
+      font-size: 16px;
   }
 
 .tillbaka-knapp {
@@ -39,6 +40,7 @@
     text-decoration: none;
     display: inline-block;
     transition-duration: 0.4s;
+    font-size: 16px;
 }
 
 .tillbaka-knapp a {
@@ -110,6 +112,24 @@
       @keyframes fadeIn {
         from {opacity: 0;}
         to {opacity:1 ;}
+      }
+
+
+      @media only screen and (max-width: 450px) {
+        .höger-knapp {
+          font-size: 10px;
+        }
+        .tillbaka-knapp {
+          font-size: 10px;
+        }
+      }
+      @media only screen and (max-width: 350px) {
+        .höger-knapp {
+          font-size: 8px;
+        }
+        .tillbaka-knapp {
+          font-size: 8px;
+        }
       }
 
 
