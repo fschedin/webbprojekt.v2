@@ -7,10 +7,10 @@
     <title>DalaSneakers</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="meny.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="sko.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/meny.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/sko.css">
 </head>
 
 <body>
@@ -62,38 +62,38 @@
     </div>
 
     <div class="skor-bild">
-        <img class="bild" src="bilder/sneakersherr9.jpeg" alt="vita skor från reebok">
+        <img class="bild" src="bilder/sneakersherr9.jpeg" alt="vita skor från reebook">
     </div>
 
     <div class="information-container">
         <div class="vänster-knapp">
-            <div class="tillbaka-knapp"><a href="webbprojekt.html">TILLBAKA</a> </div>
+            <div class="tillbaka-knapp"><a href="webbprojekt.html">TILLBAKA</a> </div> 
         </div>
         <div class="information-items">
-            <h3>FILA</h3>
-            <p>
-                -Vita<br>
-                -Gjorde för att springa<br>
-                -Vattentäta<br>
-                -Testad utav löpare <br>
-            </p>
-        </div>
-        <div class="höger-knapp">
-            <div class="popup" onclick="myFunction()">KÖP
-                <span class="popuptext" id="myPopup">Du har lagt till den här sneakern i kundvagnen</span>
+              <h3>FILA</h3>
+              <p>
+                 Skor från tillverkaren FILA<br>
+                 -Vita<br>
+                 -Gjorde för att springa<br>
+                 -Vattentäta<br>
+                 -Testad utav löpare <br>
+              </p>
+            </div>
+            <div class="höger-knapp">
+                <div class="popup" onclick="myFunction()">KÖP
+                    <span class="popuptext" id="myPopup">Du har lagt till den här sneakern i kundvagnen</span>
+                </div>
             </div>
         </div>
-    </div>
 
-
-    <script>
-        // När användaren trycker på diven ska popupen visas
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-    </script>
-
+        <script>
+            // När användaren trycker på diven ska popupen visas
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+    
 
     <footer>
         <div class="footer-vänster">
