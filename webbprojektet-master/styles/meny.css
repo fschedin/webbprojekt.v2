@@ -52,7 +52,7 @@ h2:hover {
         font-size: 1rem;
         width: 100%;
     }
-    .mobile-meny button{
+    .mobile-meny .menu-button{
         color: lightblue;
         background-color: var(--background-color-);
         font-size: 2rem;
@@ -66,8 +66,8 @@ h2:hover {
     nav.menu{
         display: none;
     }
-    button:active > nav.menu,
-    button:focus > nav.menu{
+    button:active ~ nav.menu,
+    button:focus ~ nav.menu{
         display: block;
     }
     nav.menu ul{
