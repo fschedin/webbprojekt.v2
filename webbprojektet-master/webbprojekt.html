@@ -56,16 +56,17 @@
      var slideIndex = 1;
      showSlides(slideIndex);
      
-     // Next/previous controls
+     // framåt och bakåt kontrollerna
      function plusSlides(n) {
        showSlides(slideIndex += n);
      }
      
-     // Thumbnail image controls
+     // runda cirklarna under slide
      function currentSlide(n) {
        showSlides(slideIndex = n);
      }
      
+     // här skapas slide-funktionen
      function showSlides(n) {
        var i;
        var slides = document.getElementsByClassName("mySlides");
@@ -117,6 +118,8 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+
+<!-- Här är vår textruta under sliden -->
 <div class="information-container">
    <div class="information-items">
      <p> Just nu hoss oss är det mellandagsrea! vi från Dalasneakers erbjuder de här tre skorna ovanför vilket är på utförsäljning. Så skynda fynda!</p>
