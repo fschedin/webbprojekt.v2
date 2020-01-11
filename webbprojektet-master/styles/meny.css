@@ -23,7 +23,7 @@ h2 {
 h2:hover {
     color: blue;
 }
-.desktop-meny {
+.desktop-menu {
     display: flex;
     flex-direction: row;
     background-color: var(--background-color-);
@@ -39,22 +39,22 @@ h2:hover {
 .meny-items{
     font-size: 30px;
 }
-.mobile-meny{
+.mobile-menu{
     display: none;
 }
 @media screen and (max-width: 767.98px) {
     
-    .desktop-meny{
+    .desktop-menu{
         display: none;
     }
-    .mobile-meny{
+    .mobile-menu{
         display: block;
         font-size: 1rem;
         width: 100%;
         height: auto;
         background-color: var(--background-color-);
     }
-    .mobile-meny {
+    .mobile-menu {
         color: lightblue;
         
         font-size: 2rem;
@@ -68,7 +68,7 @@ h2:hover {
     nav.menu{
         display: none;
     }
-    .mobile-meny label {
+    .mobile-menu label {
         display: block;
         text-align: center;
     }
