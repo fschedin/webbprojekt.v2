@@ -16,16 +16,16 @@
 
 <body>
     <header class="header">
-        <div class="vänster"><img src="bilder/logo.png" alt="bild på vår logo"></div>
-        <div class="mitten">
+        <div class="left"><img src="bilder/logo.png" alt="bild på vår logo"></div>
+        <div class="middle">
             <h1>Dalarnas Sneaker Shop</h1>
         </div>
-        <div class="höger"><a href="kundkorg.html"><i class="fa fa-shopping-cart"></i></a></div>
+        <div class="right"><a href="kundkorg.html"><i class="fa fa-shopping-cart"></i></a></div>
     </header>
 
 
     <!--Våran meny-->
-    <div class="desktop-meny">
+    <div class="desktop-menu">
         <a href="webbprojekt.html">
             <h2>STARTSIDA</h2>
         </a>
@@ -40,26 +40,26 @@
         </a>
     </div>
 
-    <div class="mobile-meny">
+    <div class="mobile-menu">
         <label for="menucheck">&#9776;</label>
         <input type="checkbox" id="menucheck" />
         <nav class="menu">
-          <ul>
-            <li>
-              <a href="webbprojekt.html">STARTSIDA</a>
-            </li>
-            <li>
-              <a href="herr.html">HERR</a>
-            </li>
-            <li>
-               <a href="dam.html">DAM</a>
-             </li>
-           <li>
-                 <a href="barn.html">BARN</a>
-           </li>      
-          </ul>
+            <ul>
+                <li>
+                    <a href="webbprojekt.html">STARTSIDA</a>
+                </li>
+                <li>
+                    <a href="herr.html">HERR</a>
+                </li>
+                <li>
+                    <a href="dam.html">DAM</a>
+                </li>
+                <li>
+                    <a href="barn.html">BARN</a>
+                </li>
+            </ul>
         </nav>
-      </div>
+    </div>
 
     <div class="title">
         <h1>INFORMATION</h1>
@@ -77,7 +77,7 @@
             <h3>FILA</h3>
             <p>
                 -Vit<br>
-                -Gjorde för att springa<br>
+                -Gjorda för att springa<br>
                 -Vattentäta<br>
                 -Testad utav löpare <br>
             </p>
@@ -88,16 +88,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        // När användaren trycker på diven ska popupen visas
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-    </script>
-
-
     <footer>
         <div class="footer-vänster">
             <a class="html" href="https://validator.w3.org/#validate_by_input"><i class="fa fa-html5"></i></a>
@@ -114,5 +104,13 @@
         </div>
     </footer>
 </body>
+
+<script>
+    // När användaren trycker på diven ska popupen visas
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+</script>
 
 </html>

@@ -16,16 +16,16 @@
 .header div{
     margin: 0;
 }
-.vänster{
+.left{
     height: 125px;
     width: 125px;
 }
-.vänster img{
+.left img{
     max-width: 100%;
     max-height: 100%;
     border: 3px solid var(--border-color-);
 }
-.mitten{
+.middle{
     font-size: 20px;
     display: flex;
     flex-direction: row;
@@ -33,34 +33,34 @@
     border: 5px solid lightblue;
     color: lightblue;;
 }
-.mitten h1 {
+.middle h1 {
     padding: 10px;
 }
-.höger {
+.right {
     padding-right: 40px;
 
 }
-.höger i {
+.right i {
     font-size: 60px;
     color: black;
 }
 @media only screen and (max-width: 1050px) {
-.mitten {
+.middle {
     font-size: 15px;
 }
   }
   @media only screen and (max-width: 700px) {
-    .mitten {
+    .middle {
         font-size: 7.5px;
     }
       }
       @media only screen and (max-width: 450px) {
-        .mitten {
+        .middle {
             font-size: 5px;
         }
     }
     @media only screen and (max-width: 400px) {
-      .mitten {
+      .middle {
           display: none;
       }
  }
