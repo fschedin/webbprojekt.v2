@@ -1,11 +1,11 @@
 * {box-sizing:border-box}
 
-.skor-bild {
+.shoe-picture {
     display: flex;
     justify-content: center;
 }
 
-.bild {
+.picture {
     width: 30%;
 } 
 
@@ -23,16 +23,16 @@
   
   }
 
-  .vänster-knapp{
+  .left-button{
       padding-top: 50px;
   }
 
-  .höger-knapp{
+  .right-button{
       padding-top: 50px;
       font-size: 16px;
   }
 
-.tillbaka-knapp {
+.back-button {
     background-color: #4CAF50;
     border: none;
     padding: 5px 20px;
@@ -43,11 +43,11 @@
     font-size: 16px;
 }
 
-.tillbaka-knapp a {
+.back-button a {
     color: white;
 }
 
-.tillbaka-knapp:hover{
+.back-button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -116,7 +116,7 @@
 
 
       @media only screen and (max-width: 450px) {
-        .höger-knapp {
+        .right-button {
           font-size: 10px;
         }
         .tillbaka-knapp {
@@ -124,7 +124,7 @@
         }
       }
       @media only screen and (max-width: 350px) {
-        .höger-knapp {
+        .right-button {
           font-size: 8px;
         }
         .tillbaka-knapp {

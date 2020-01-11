@@ -15,12 +15,12 @@
     padding-top: 25px;
   }
 
-.grupp-bild {
+.group-picture {
     display: flex;
     justify-content: center;
 }
 
-.bild {
+.picture {
     width: 50%;
     border: solid 5px black;
 } 

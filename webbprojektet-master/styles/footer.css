@@ -9,7 +9,7 @@ footer{
     margin-bottom: auto;
 }
 
-.footer-vänster {
+.footer-left {
     font-size: 40px;
     display: flex;
     flex-flow: column;
@@ -24,7 +24,7 @@ footer{
     padding-top: 10px;
     padding-bottom: 5px;
 }
-.footer-mitten{
+.footer-middle{
     font-size: 60px;
     display: flex;
     
@@ -44,7 +44,7 @@ footer{
     color: lightskyblue;
 }
 
-.footer-höger{
+.footer-right{
     font-size: 80px;
     display: flex;
     padding: 20px;
@@ -53,11 +53,11 @@ footer{
     color: white;
 }
 @media screen and (max-width: 550px) {
-    .footer-höger{
+    .footer-right{
         font-size: 50px;
 
     }
-    .footer-mitten{
+    .footer-middle{
         font-size: 40px;
     }
     .twitter{
