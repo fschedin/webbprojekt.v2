@@ -1,5 +1,5 @@
 :root {
-    --background-color-: darkslategrey;
+    --background-color-: #2f4f4f;
     --border-color-: black;
   }
 
@@ -52,7 +52,7 @@ h2:hover {
         background-color: var(--background-color-);
     }
     .mobile-menu {
-        color: lightblue;
+        color: #add8e6;
         
         font-size: 2rem;
         justify-content: start;
